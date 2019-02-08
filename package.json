@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/abhinayjs/experiments-with-apollostack#readme",
   "dependencies": {
-    "apollo-datasource-rest": "^0.3.0"
+    "apollo-datasource-rest": "^0.3.0",
+    "sequelize": "^4.42.0",
+    "sqlite3": "^4.0.6"
   }
 }

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abhinayjs/experiments-with-apollostack/issues"
   },
-  "homepage": "https://github.com/abhinayjs/experiments-with-apollostack#readme"
+  "homepage": "https://github.com/abhinayjs/experiments-with-apollostack#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.3.0"
+  }
 }

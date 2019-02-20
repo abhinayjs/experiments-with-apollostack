@@ -1,4 +1,4 @@
-cosnt { RESTDataSource } extends = require('apollo-datasource-rest');
+const { RESTDataSource } = require('apollo-datasource-rest');
 
 class LaunchAPI extends RESTDataSource {
     constructor() {
@@ -8,7 +8,7 @@ class LaunchAPI extends RESTDataSource {
 
     async getAllLaunches() {
         const response = await this.get('launches');
-        return Array.isArray(response) ? response.map(launch => this.launchReducer(launch) : [];)
+        return Array.isArray(response) ? response.map(launch => this.launchReducer(launch)) : [];
     }
 
     launchReducer(launch) {

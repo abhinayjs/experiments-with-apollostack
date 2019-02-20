@@ -37,7 +37,7 @@ type Launch {
     site: String
     mission: Mission
     rocket: Rocket
-    isBokked: Boolean!
+    isBooked: Boolean!
 }
 
 type User {
